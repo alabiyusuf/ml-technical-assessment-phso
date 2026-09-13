@@ -49,12 +49,12 @@ Quality checks confirmed:
 - No missing investigation probabilities
 - No missing investigation decisions
 
-The final severity predictions are provided in the prediction output file.
+The final severity predictions are provided in `phso_predictions.csv`.
 
 ## Repository Contents
 
-- `*.ipynb` - analysis, modelling and evaluation notebook
-- `predictions.csv` - final predictions for the holdback cases
+- `ML_Technical_Assessment.ipynb` - analysis, modelling and evaluation notebook
+- `phso_predictions.csv` - final predictions for the holdback cases
 - `requirements.txt` - Python dependencies
 - `.gitignore` - files excluded from version control
 
